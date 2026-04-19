@@ -40,6 +40,4 @@ Test Example:
 
 Login: admin / admin
 Add record → Save → restart → Load → data appears
-Notes
-Database file: health.db
-GUI built with Swing
+
