@@ -82,7 +82,7 @@ public class MainGUI {
             JOptionPane.showMessageDialog(frame, "✅ Загружено из базы данных");
         });
 
-        // При клике на запись — заполняем поля
+
         listUI.addListSelectionListener((ListSelectionEvent e) -> {
             if (!e.getValueIsAdjusting()) {
                 int selected = listUI.getSelectedIndex();
