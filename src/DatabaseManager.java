@@ -16,7 +16,7 @@ public class DatabaseManager {
                     "value TEXT NOT NULL)";
             stmt.execute(sql);
         } catch (SQLException e) {
-            e.printStackTrace(); // 👈 важно
+            e.printStackTrace();
         }
     }
 
@@ -49,7 +49,7 @@ public class DatabaseManager {
                 stmt.execute(sql);
             }
 
-            conn.commit(); //
+            conn.commit();
 
         } catch (SQLException e) {
             e.printStackTrace();
